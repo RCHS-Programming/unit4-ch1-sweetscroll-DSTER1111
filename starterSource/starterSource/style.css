@@ -5,7 +5,7 @@ body, html {
   color: White;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .kitchen-equipment, .cake-ingredients, .cake, .beater, .pan, .decorate {
   position: relative;
   background-position: center;
   background-attachment: fixed;
@@ -38,6 +38,20 @@ h3 {
 }
 .cake-ingredients {
   background-image: url("ingredients.jpg");
+}
+.cake {
+  background-image: url("img_parallax.jpg");
+}
+.beater {
+  background-image: url("mixer.jpg");
+}
+.pan {
+  background-image: url("oven.jpg");
+}
+.decorate {
+  background-image: url("rosecake.jpg");
+  min-height: 100%;
+  background-size: auto;
 }
 .caption {
   position: absolute;
